@@ -1,0 +1,7 @@
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\bin\Debug\excelinterop.exe.config
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\bin\Debug\excelinterop.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\bin\Debug\excelinterop.pdb
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\obj\Debug\excelinterop.csprojResolveAssemblyReference.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\obj\Debug\excelinterop.csproj.ResolveComReference.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\obj\Debug\excelinterop.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\excelinterop\excelinterop\obj\Debug\excelinterop.pdb

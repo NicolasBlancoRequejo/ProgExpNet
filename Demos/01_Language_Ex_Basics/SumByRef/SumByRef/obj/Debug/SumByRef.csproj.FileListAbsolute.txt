@@ -1,0 +1,17 @@
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\bin\Debug\SumByRef.exe.config
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.csprojResolveAssemblyReference.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\MainWindow.g.cs
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\App.g.cs
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef_MarkupCompile.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef_MarkupCompile.lref
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\bin\Debug\SumByRef.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\bin\Debug\SumByRef.pdb
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\MainWindow.baml
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.g.resources
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.Properties.Resources.resources
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.csproj.GenerateResource.Cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.pdb
+C:\Users\krish\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\bin\Debug\SumByRef.exe.config
+C:\Users\krish\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.exe
+C:\Users\krish\Dropbox\bitbucket\progrexpnet\chapter1\demos\SumByRef\SumByRef\obj\Debug\SumByRef.pdb

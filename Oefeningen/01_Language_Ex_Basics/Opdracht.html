@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/github-markdown.css">
+  <style>
+  	.markdown-body {
+  		min-width: 200px;
+  		max-width: 790px;
+  		margin: 0 auto;
+  		padding: 30px;
+  	}
+  </style>
+</head>
+<body>
+<article class="markdown-body">
+<h1 id="lab-language-execution-basics-.net">Lab: Language execution basics <em>.NET</em></h1>
+<h2 id="exercise-1">Exercise 1</h2>
+<p>Create a class <code>Person</code>, with an <code>int</code> property <code>Age</code> and a <code>string</code> property <code>Name</code>. Now create a list of 5 <code>Person</code>-objects: experiment with different flavours of initialisation.</p>
+<p>Now create a method that iterates through this list and calculates the sum of all ages. Try using the <code>var</code> keyword as much as possible.</p>
+<p><em>What do you think about the readability of your code?</em></p>
+<h2 id="exercise-2">Exercise 2</h2>
+<p>Based on the previous exercise, make an application that opens <em>Word</em>, creates a new document and generates a sentence for each person in your list.</p>
+<h2 id="exercise-3">Exercise 3</h2>
+<p>Consider the following class <code>Grade</code>:</p>
+<pre class=".cs"><code>class Grade
+{
+    public float Score { get; set; } // Between 0.0f and 100.0f
+    public string CourseName { get; set; }
+}</code></pre>
+<p>And the following program:</p>
+<pre class=".cs"><code>class Program
+{
+    static void Main(string[] args)
+    {
+        GradeBook book = new GradeBook();
+
+        var grades = new List&lt;Grade&gt;
+        {
+            new Grade {CourseName = &quot;Java&quot;, Score = 80.0f },
+            new Grade {CourseName = &quot;PHP&quot;, Score = 20.0f }
+        };
+
+        grades[0].Score = 85.0f;
+    }
+}</code></pre>
+<p>Now change <code>Grade</code> from <code>class</code> to <code>struct</code> and recompile. What do you notice? Explain! Fix it, while keeping the <code>struct</code>.</p>
+<h2 id="exercise-4">Exercise 4</h2>
+<p>Modify the SumByVal-program:</p>
+<ul>
+<li>create two <code>Person</code> objects (exercise 1)</li>
+<li>the numbers that are entered by the user are stored inside these two objects</li>
+<li>modify the method: <code>private int SumAge(Person g1, Person g2)</code></li>
+<li>draw Stack and Heap</li>
+</ul>
+<h2 id="exercise-5">Exercise 5</h2>
+<p>Now change <code>Person</code> from <code>class</code> to <code>struct</code>. Draw Stack and Heap.</p>
+<h2 id="exercise-6">Exercise 6</h2>
+<p>Create a very simple Console program that invokes SumByVal twice:</p>
+<pre class=".cs"><code>...
+int a = SumByVal(1, 2);
+Console.WriteLine(a);
+...
+int b = SumByVal(3, 4);
+Console.WriteLine(b);
+...</code></pre>
+<p>Inspect this progam with <code>ILDASM</code> and <code>ILSpy</code> and try to understand what's happening.</p>
+<h2 id="exercise-7">Exercise 7</h2>
+<p>Experiment with some tools described in the sample chapter of <a href="http://www.writinghighperf.net">Writing High Performance .NET Code</a>. In order to do so, write a console program that in its <code>Main</code>-method creates a very long <code>List&lt;Person&gt;</code>. Verify that the Heap grows as your program executes.</p>
+<p>Now change the <code>Person</code>-class to a struct and re-run your test. Any change?</p>
+<p>Possible tools to use: PerfMon (included in Windows), <a href="http://www.writinghighperf.net/go/9">PerfView</a>.</p>
+<p>Bonus: Visual Studio 2015 now has some diagnostic tools out-of-the-box!</p>
+</article>
+</body>
+</html>

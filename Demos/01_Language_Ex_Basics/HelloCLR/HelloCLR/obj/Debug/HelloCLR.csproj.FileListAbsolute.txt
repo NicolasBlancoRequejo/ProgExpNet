@@ -1,0 +1,6 @@
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\bin\Debug\HelloCLR.exe.config
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\bin\Debug\HelloCLR.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\bin\Debug\HelloCLR.pdb
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\obj\Debug\HelloCLR.csprojResolveAssemblyReference.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\obj\Debug\HelloCLR.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\demos\HelloCLR\HelloCLR\obj\Debug\HelloCLR.pdb

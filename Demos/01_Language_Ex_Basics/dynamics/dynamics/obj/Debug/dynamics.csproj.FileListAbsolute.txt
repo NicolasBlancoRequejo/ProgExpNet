@@ -1,0 +1,6 @@
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\bin\Debug\dynamics.exe.config
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\bin\Debug\dynamics.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\bin\Debug\dynamics.pdb
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\obj\Debug\dynamics.csprojResolveAssemblyReference.cache
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\obj\Debug\dynamics.exe
+C:\Users\Kris\Dropbox\bitbucket\progrexpnet\chapter1\dynamics\dynamics\obj\Debug\dynamics.pdb

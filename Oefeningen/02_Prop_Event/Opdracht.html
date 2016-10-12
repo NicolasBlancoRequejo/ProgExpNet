@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="Opdracht_files/github-markdown.css">
+  <style>
+  	.markdown-body {
+  		min-width: 200px;
+  		max-width: 790px;
+  		margin: 0 auto;
+  		padding: 30px;
+  	}
+  </style>
+<style type="text/css">
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style><link rel="stylesheet" type="text/css" href="Opdracht_files/jquery.css"><link rel="stylesheet" type="text/css" href="Opdracht_files/owl.css"><link rel="stylesheet" type="text/css" href="Opdracht_files/owl_002.css"><link rel="stylesheet" type="text/css" href="Opdracht_files/owl_003.css"><style type="text/css">.autocardanywhere-popup {background-color: #ffffff !important; z-index: 15001 !important; border: 3px solid #959FA9 !important;}.autocardanywhere-popup .qtip-titlebar {border-bottom: 0 !important; padding: 5px 35px 5px 10px !important;     background: #3A79B8 !important; background-image: -webkit-gradient(linear,left top,left bottom,from(#3A79B8),to(#2E629D)) !important; background-image: -webkit-linear-gradient(top,#3A79B8,#2E629D) !important; background-image: -moz-linear-gradient(top,#3A79B8,#2E629D) !important; background-image: -ms-linear-gradient(top,#3A79B8,#2E629D) !important; background-image: -o-linear-gradient(top,#3A79B8,#2E629D) !important;}.autocardanywhere-popup .qtip-content {padding: 5px 9px !important; border-radius: 0px !important; box-shadow: none !important;}.autocardanywhere-popup.qtip{max-width:600px;text-align:left;}.autocardanywhere-popup .qtip-title{color:#ffffff;white-space: nowrap; font-family:'Segoe UI',Frutiger,'Frutiger Linotype','Dejavu Sans','Helvetica Neue',Arial,sans-serif;}.autocardanywhere-popup .owl-pagination{text-align:center;}.autocardanywhere-popup .autocardanywhere-loading,.autocardanywhere-broken{background-color: black;background-position: center center;background-repeat: no-repeat;border-radius: 10px;}.autocardanywhere-popup .autocardanywhere-loading{background-image: url('resource://autocardanywhere-at-autocardanywhere-dot-com/data/img/loading.gif');background-color: black;}.autocardanywhere-popup .autocardanywhere-broken{background-image: url('resource://autocardanywhere-at-autocardanywhere-dot-com/data/img/broken.png');background-color: #be3730;}.autocardanywhere-popup .autocardanywhere-loading img{display: none;}.autocardanywhere-popup .autocardanywhere-broken img{display: none;}.crystal-catalog-helper-list .autocardanywhere-link{display:block !important;}.autocardanywhere-link{display:inline !important;color:#26931a !important;font-weight:normal;font-style:none;text-decoration: none !important; border-bottom:1px dashed;}.autocardanywhere-link.autocardanywhere-emphasised{font-weight: normal !important;font-style: none !important;}.autocardanywhere-popup ::-webkit-scrollbar{width: 0.5em;}.autocardanywhere-popup ::-webkit-scrollbar-button{height:0px;}.autocardanywhere-popup ::-webkit-scrollbar-track-piece{background:#888;}.autocardanywhere-popup ::-webkit-scrollbar-thumb{background:#ccc;}​</style></head>
+<body>
+<article class="markdown-body">
+<h1 id="lab-delegates-and-events-.net">Lab: Delegates and Events <em>.NET</em></h1>
+<p><em>Create Console programs for the following exercises:</em></p>
+<h2 id="exercise-1">Exercise 1</h2>
+<p>Create a class <code>LightBulb</code>, with a <code>bool</code> property <code>IsOn</code> and a <code>string</code> property <code>Color</code>. Now create a class called <code>Switch</code> where you implement methods <code>TurnOn</code> and <code>TurnOff</code>. Use <em>only delegates</em> to let a <code>LightBulb</code> instance subscribe to a <code>Switch</code> instance, so that the <code>LightBulb</code> turns on using the <code>Switch</code>.</p>
+<h2 id="exercise-2">Exercise 2</h2>
+<p>Based on the previous exercise, use multiple switches, so that one of the switches should turn on in order to put the light on.</p>
+<h2 id="exercise-3">Exercise 3</h2>
+<p>Now use events to implement the previous exercises.</p>
+<h2 id="exercise-4">Exercise 4</h2>
+<p>Create a <code>TemperatureSensor</code> class that measures temperature and raises an event every second, with a new temperature reading. Create 4 subscriber classes:</p>
+<ul>
+<li><code>AverageTemperature</code> : average of all readings</li>
+<li><code>MinimumTemperature</code> : minimum of all readings</li>
+<li><code>MaximumTemperature</code> : maximum of all readings</li>
+<li><code>TresholdTemperature</code> : raises an event itself when a treshold temperature is reached. E.g. if it gets hotter dan 45 degrees, an alarm gets off</li>
+</ul>
+<h2 id="exercise-5">Exercise 5</h2>
+<p>Proof using any of the examples in the previous exercises, that a 
+delegate return value is actually the last method the invocation list.</p>
+</article>
+
+
+</body></html>
